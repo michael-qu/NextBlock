@@ -22,7 +22,7 @@ struct NextBlockProperty {
     uint deposit;
     uint leaseTerm; // in months
     NextBlockPropertyState state;
-    uint metaData;
+    string metaData;
     address tenant;
     string supportingDoc;
     uint startDate;

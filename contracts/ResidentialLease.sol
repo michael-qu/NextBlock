@@ -9,7 +9,7 @@ contract ResidentialLease {
 
     uint public numberOfProperties = 0;
 
-    function createProperty(address _owner, uint _price, uint _deposit, uint _leaseTerm, uint _metaData) public returns (uint) {
+    function createProperty(address _owner, uint _price, uint _deposit, uint _leaseTerm, string memory _metaData) public returns (uint) {
             NextBlockProperty storage property = properties[numberOfProperties];
             property.owner = _owner;
             property.price = _price;
