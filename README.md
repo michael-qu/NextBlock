@@ -14,6 +14,7 @@ We aim to build a vibrant community that values transparency, accountability, an
 Our commitment to innovation and improvement is aimed at reshaping the industry to be more inclusive, efficient, and secure.
 
 **Functionality**
+
 There are two roles of the users, namely landlord (leaser), and tenant (renter). Users need to connect to their wallet before using the web app.
 
 A property can be created by the landlord, with associated metadata stored on the peer-to-peer decentralized file system ([IPFS](https://web3.storage/)).
@@ -29,22 +30,29 @@ The tenant's credit rating can also be established by uploading documents to sup
 The credit rating will be used as a trustable reference for tenants so that third-party guarantor may be avoided if the tenant has a high rating (algorithm to be implemented).
 
 **UI Design**
+
 https://www.figma.com/file/7htmJgqtU4mtcqEvunWUfF/Untitled?type=design&node-id=0%3A1&mode=design&t=Ta2b3SPpkMpSfLua-1
 
 **Design**
+
   Figma
   
 **Front end:**
+
   React JS
 
 **Back End:**
+
   Node.js
   
 **Smart Contract**
+
   Solidity
   
 **Framework used**
+
   Hardhat (for deployment), IPFS (for storage)
 
 **Technology used**
+
   Decentralized file storage, Graph API (to be implemented)
